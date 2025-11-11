@@ -69,22 +69,6 @@ Create a `.env` file in the project root:
 ```
 GEMINI_API_KEY=YOUR_REAL_API_KEY_HERE
 ```
-
----
-
-## 🧩 Gemini API Details
-
-Make sure you have access to **Google Gemini API**.  
-You can generate a key from:
-
-👉 [https://makersuite.google.com/app/apikey](https://makersuite.google.com/app/apikey)
-
-and use this endpoint in your `generator.py`:
-
-```python
-GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
-```
-
 ---
 
 ## ▶️ Run the Server
