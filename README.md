@@ -42,8 +42,8 @@ article_generator/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/ai-blog-generator.git
-cd ai-blog-generator
+https://github.com/srkthe27/Article_Generator.git
+cd Article_Generator
 ```
 
 ### 2️⃣ Create & activate a virtual environment
