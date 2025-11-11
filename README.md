@@ -25,14 +25,13 @@ article_generator/
 │   ├── main.py              # FastAPI entry point (routes + server)
 │   ├── generator.py         # Handles Gemini API calls
 │   ├── models.py            # (Optional) Data models / Post schema
-│   └── database.json        # Simple local storage (if applicable)
 │
 ├── static/
 │   ├── index.html           # Frontend UI for title input + generation
 │   ├── blog.js              # Handles fetching + displaying posts
 │   ├── style.css            # Styling for the frontend
 │
-├── .env                     # (optional) to store GEMINI_API_KEY
+├── .env                     # to store GEMINI_API_KEY
 ├── requirements.txt
 └── README.md
 ```
@@ -50,7 +49,7 @@ cd ai-blog-generator
 ### 2️⃣ Create & activate a virtual environment
 ```bash
 python -m venv .venv
-.\.venv\Scriptsctivate      # On Windows
+.\.venv\Scripts\activate      # On Windows
 # or
 source .venv/bin/activate     # On macOS/Linux
 ```
@@ -62,14 +61,9 @@ pip install -r requirements.txt
 
 ### 4️⃣ Set up your Gemini API Key
 
-#### Option A — via environment variable
-```bash
-setx GEMINI_API_KEY "YOUR_REAL_API_KEY_HERE"   # On Windows
-# or
-export GEMINI_API_KEY="YOUR_REAL_API_KEY_HERE"  # On macOS/Linux
 ```
 
-#### Option B — via `.env` file
+#### via `.env` file
 Create a `.env` file in the project root:
 
 ```
