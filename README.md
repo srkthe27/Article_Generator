@@ -1,4 +1,4 @@
-# 🧠 AI Blog Generator — FastAPI + Gemini API
+# 🧠 AI Blog Generator
 
 This project automatically generates high-quality blog articles using **Google Gemini AI**.  
 You simply enter a list of titles (optionally with details), and the backend generates complete blog posts that are saved and displayed under `/blog`.
